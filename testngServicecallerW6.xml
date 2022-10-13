@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://dev131787.service-now.com" />
+<parameter name="username" value="admin" />
+<parameter name="password" value="Sairam13$" />
+  <test thread-count="5" name="Test" verbose="2">
+    <classes>
+      <class name="week6.day2.caller.Newcaller"/>
+      <class name="week6.day2.caller.UpdateCaller"/>
+      <class name="week6.day2.caller.DeleteCaller"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
